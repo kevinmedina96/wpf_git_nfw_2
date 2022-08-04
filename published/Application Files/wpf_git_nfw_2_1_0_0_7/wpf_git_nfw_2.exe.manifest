@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="wpf_git_nfw_2.exe" version="1.0.0.7" publicKeyToken="8e947cc47bf17f3a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="wpf_git_nfw_2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="wpf_git_nfw_2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opciones del manifiesto UAC
+             Si quiere cambiar el nivel del Control de cuentas de usuario de Windows reemplace el 
+             nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Especificar el elemento requestedExecutionLevel deshabilitará la virtualización de archivos y registros. 
+            Quite este elemento si la aplicación necesita esta virtualización para la compatibilidad
+            con versiones anteriores.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="wpf_git_nfw_2.exe" size="12248">
+      <assemblyIdentity name="wpf_git_nfw_2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PVDWR1gUrO6IDt2+8DgItdWI0tkUmJKKuTrNc5ygTx0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="wpf_git_nfw_2.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Una lista de las versiones de Windows en la que se ha probado esta aplicación y
+           con la que se ha diseñado para que trabaje. Quite la marca de comentario de los elementos adecuados y Windows seleccionará 
+           automáticamente el entorno más compatible. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=MELTERPE72\Proyectos" issuerKeyHash="21e28580ee8104c7411a26858267860dbc170f63" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OXvAbJ+PYaAtTMMVueX9GLjEShWbhvRK/ct5jgrkTYI=</DigestValue></Reference></SignedInfo><SignatureValue>e6Z4iYAZn1p2AV6ENpcoi22KKmRwI7z4OcOFa5XA2c7GoL20JbVhi2o+nERIuqc2vDlvyD9R5XJ3T7sF5ibb9rMYhTKqzBcEiu4eL+Xd/Kvw3c+W7+OjvkVZAuDPDMv0HJ/z+Qqc9F4PqezLnAhMOEFSKZUinZkg165aKamdcBA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ukLncVpTjEytZ53SYea2NkSi15TkzqdQ4mO8KblQNyguYtk5d9lYoP/5Cz9O/p1WUI+GdOTI0x62mu9fmd6jdT57EvtmDo0IBdKLA3uIuOMiAdnc2lKh0xWlS2w+9qleR4+mpNvKkOJsUzyewyRbMNjPy6cYUezhWpvkRR2R9dE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="824de40a8e79cbfd4af4869b154ac4b818fde5b915c34c2da0618f9f6cc07b39" Description="" Url=""><as:assemblyIdentity name="wpf_git_nfw_2.exe" version="1.0.0.7" publicKeyToken="8e947cc47bf17f3a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MELTERPE72\Proyectos</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RfwPgOxJ2T3pZ0lyZUdw01Pe1LZzMKj0F2KIbP3ptY4=</DigestValue></Reference></SignedInfo><SignatureValue>YgnLpQkTlnJp5ay3h4Esnl9UfRY1nolXVtMSQg9L8YiwEvc8pzSnHwGwbp1vijpzHuWS+fjD+6aKlUItCt3Kp8U0z7kcZeS2jJctBDGMaxuyn0M/QTjI6EJhYak+dfPXUz99aQLnyZ7hAdTGvTRMW/I4eJZJS+n7jjS1lvBQdag=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ukLncVpTjEytZ53SYea2NkSi15TkzqdQ4mO8KblQNyguYtk5d9lYoP/5Cz9O/p1WUI+GdOTI0x62mu9fmd6jdT57EvtmDo0IBdKLA3uIuOMiAdnc2lKh0xWlS2w+9qleR4+mpNvKkOJsUzyewyRbMNjPy6cYUezhWpvkRR2R9dE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQZM+0Vi/hnqhOeNyPcVBCnjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATQBFAEwAVABFAFIAUABFADcAMgBcAFAAcgBvAHkAZQBjAHQAbwBzMB4XDTIyMDgwMzE0NDc1MVoXDTIzMDgwMzIwNDc1MVowMzExMC8GA1UEAx4oAE0ARQBMAFQARQBSAFAARQA3ADIAXABQAHIAbwB5AGUAYwB0AG8AczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAukLncVpTjEytZ53SYea2NkSi15TkzqdQ4mO8KblQNyguYtk5d9lYoP/5Cz9O/p1WUI+GdOTI0x62mu9fmd6jdT57EvtmDo0IBdKLA3uIuOMiAdnc2lKh0xWlS2w+9qleR4+mpNvKkOJsUzyewyRbMNjPy6cYUezhWpvkRR2R9dECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBQNfvNCZNZrE1vUlH0OUKx0Cv27XLzxUhwvgaQwnNc/8Vm05raxSKZITHEY34JHfRpTBlrgGTMtMvMd55Y6ptiasPCgrrZs4eXgN0zG2+Rw5NS4wv+Qa+uPiBno+fvgagcm1O4iOi4+/LV2WNUt/MoPZmSp6z1IZxbTCq5L5pAOg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
